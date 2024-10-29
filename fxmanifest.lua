@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'ghsxth'
 description 'Mapas Connect'
-version '1.0.0'
+version '1.0.1'
 lua54 'yes'
 
 this_is_a_map 'yes'
@@ -18,6 +18,7 @@ dependencies {
 
 files {
     'stream/*',
+    'stream/**/*',
 }
 
 client_scripts {
@@ -32,3 +33,5 @@ escrow_ignore {
     'stream/**/*.ytd',
     'client-side/ghsxth_peds_blockers.lua',
 }
+
+dependency '/assetpacks'
