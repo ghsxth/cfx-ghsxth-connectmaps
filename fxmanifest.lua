@@ -19,6 +19,9 @@ dependencies {
 files {
     'stream/*',
     'stream/**/*',
+    'stream/brnxcinema/[interiorproxies]/interiorproxies.meta',
+    'stream/brnxcinema/[audio]/brnx_cinema_col_game.dat151.rel',
+    'stream/brnxcinema/[audio]/brnx_cinema_col_mix.dat15.rel',
 }
 
 client_scripts {
@@ -33,5 +36,8 @@ escrow_ignore {
     'stream/**/*.ytd',
     'client-side/ghsxth_peds_blockers.lua',
 }
+
+data_file 'AUDIO_GAMEDATA' 'stream/brnxcinema/[audio]/brnx_cinema_col_game.dat151'
+data_file 'AUDIO_DYNAMIXDATA' 'stream/brnxcinema/[audio]/brnx_cinema_col_mix.dat15'
 
 dependency '/assetpacks'
