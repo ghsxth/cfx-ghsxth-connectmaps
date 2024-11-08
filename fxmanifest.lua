@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'ghsxth'
 description 'Mapas Connect'
-version '1.0.2'
+version '1.0.3'
 lua54 'yes'
 
 this_is_a_map 'yes'
@@ -20,6 +20,7 @@ files {
     'stream/*',
     'stream/**/*',
     'stream/brnxcinema/[interiorproxies]/interiorproxies.meta',
+    'stream/connectvanilla/[interiorproxies]/interiorproxies.meta',
     'stream/brnxcinema/[audio]/brnx_cinema_col_game.dat151.rel',
     'stream/brnxcinema/[audio]/brnx_cinema_col_mix.dat15.rel',
 }
@@ -40,4 +41,6 @@ escrow_ignore {
 data_file 'AUDIO_GAMEDATA' 'stream/brnxcinema/[audio]/brnx_cinema_col_game.dat151'
 data_file 'AUDIO_DYNAMIXDATA' 'stream/brnxcinema/[audio]/brnx_cinema_col_mix.dat15'
 
+data_file 'INTERIOR_PROXY_ORDER_FILE' 'stream/connectvanilla/[interiorproxies]/interiorproxies.meta'
+data_file 'INTERIOR_PROXY_ORDER_FILE' 'stream/brnxcinema/[interiorproxies]/interiorproxies.meta'
 dependency '/assetpacks'
