@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'ghsxth'
 description 'Mapas Connect'
-version '1.0.4 - Update Natal'
+version '1.0.5'
 lua54 'yes'
 
 this_is_a_map 'yes'
